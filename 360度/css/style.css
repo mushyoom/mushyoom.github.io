@@ -1,0 +1,279 @@
+/*重置样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*1.导航*/
+#navigation{
+	width: 1100px;
+	height: 65px;
+	background-color: #f2f2f2;
+	margin: 0 auto;
+}
+
+#navigation .logo{
+	width: 169px;
+	height: 42px;
+	float: left;
+	margin: 14px 0 11px 49px;
+} 
+
+#navigation .nav{
+	width: 500px;
+	height: 16px;
+	float: right;
+	margin: 34px 50px 17px 0;
+	
+}
+
+#navigation .nav ul li{
+	list-style: none;
+	text-align: right;
+	padding-left: 36px;
+	float: left;
+}	
+
+#navigation .nav ul li a{
+	width: 55px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #4a4a4a;
+}
+
+/*1.导航-------End*/
+
+/*2.Banner*/
+#banner{
+	width: 1100px;
+	height: 425px;
+	margin: 0 auto;
+}
+/*2.Banner-------End*/
+
+/*3.服务内容*/
+#content{
+	width: 1100px;
+	height: 288px;
+	background-color: #f2f2f2;
+	margin: 0 auto;
+}
+
+#content .service{
+	width: 512px;
+	height: 288px;
+	margin-left: 50px;
+	float: left;
+}
+
+#content .service ul li{
+	list-style: none;
+	padding-top: 9px;
+	padding-bottom: 79px;
+}
+
+#content .service ul li a{
+	font-size: 15px;
+	text-decoration: none;
+	color: #00b5ee;
+}
+
+#content .service ul li a:hover{
+	color: #4A4A4A;
+}
+
+#content .service ul li span{
+	width: 348px;
+	padding-right: 43px;
+	font-size: 12px;
+	line-height: 21px;
+	float: right;
+	color: #656565;
+}
+
+#content .cases{
+	width: 488px;
+	height: 288px;
+	margin-right: 50px;
+	float: right;
+}
+
+#content .cases .photo{
+	margin-top: 15px;
+}
+
+/*3.服务内容-------End*/
+
+/*4.关于我们*/
+#about{
+	width: 1100px;
+	height: 431px;
+	background-color: #f2f2f2;
+	margin: 0 auto;
+}
+
+#about .title{
+	width: 1000px;
+	height: 33px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 66px;
+	background-color: #f2f2f2;
+}
+
+#about .title p{
+	font-size:17px ;
+	float: left;
+	color: #222222;
+}
+
+#about a img{
+	float: right;
+	padding-right: 10px;
+}
+
+#about .aboutus{
+	width: 299px;
+	height: 193px;
+	margin-left: 50px;
+	float: left;
+	background-color: #f2f2f2;
+	border-right: 1px solid #E5E5E5 ;  /*需要听老师讲解如何设置边框阴影	结果：老师竟然说这不是边框？是背景！！！*/
+}
+
+#about .aboutus p{
+	width: 252px;
+	font-size: 12px;
+	line-height: 21px;
+	color: #7e7e7e;
+}
+
+#about .news{
+	width: 299px;
+	height: 193px;
+	float: left;
+	background-color: #f2f2f2;
+	border-right: 1px solid #E5E5E5 ;  /*需要听老师讲解如何设置边框阴影	结果：老师竟然说这不是边框？是背景！！！*/
+}
+
+#about .news ul li{
+	list-style-position: inside;
+	list-style: none;
+}
+
+#about .news ul li a{
+	width: 253px;
+	text-decoration: none;
+	padding-left: 29px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #7e7e7e;
+}
+
+#about .news span{		/*如果不使用元素类型知识，就只能暂时使用margin或padding值来设置位置*/
+	padding-left:26px ;
+	padding-bottom:25px ;
+}
+
+#about .campaign{
+	width: 400px;
+	height: 193px;
+	margin-right: 50px;
+	float: left;
+	background-color: #f2f2f2;
+}
+
+#about .campaign ul li{
+	width: 400px;
+	list-style-position: inside;
+	list-style: none;
+}
+
+#about .campaign ul li a{
+	float: left;
+	text-decoration: none;
+	padding-left: 25px;
+	font-size: 12px;
+	line-height: 28px;
+	float: left;
+	color: #7e7e7e;
+}
+
+#about .campaign ul li span{
+	font-size: 8px;
+	color: #7e7e7e;
+	float: right;
+}
+
+/*5.底部导航*/
+#final-nav{
+	width: 1100px;
+	height: 230px;
+	background-color: #383838;
+	margin: 0 auto;
+}
+
+#final-nav .view0{
+	width: 454px;
+	height: 16px;
+	margin-left: 48px;
+	padding-top: 51px;
+}
+#final-nav .view0 p{
+	font-size: 14px;
+	float: left;
+}
+
+#final-nav .view0 a{
+	color: #cacaca;
+	text-decoration: none;
+}
+
+#final-nav .view1{
+	width: 423px;
+	height: 90px;
+	margin-left: 48px;
+
+}
+#final-nav .view1 p{
+	font-size: 12px;
+	line-height: 26px;
+	float: left;
+	color: #929292;
+}
+
+#final-nav .view1 ul li{
+	width: 423px; /*如果不限定宽度的话，各行文字容易出现堆叠，而不是整齐分行*/
+	font-size: 12px;
+	line-height: 20px;
+	list-style: none;
+	float: left;
+	color: #929292;
+}
+
+#final-nav .view2{ /*无法设置到理想的高度位置，需要听老师讲如何设置，揪出问题*/
+	width: 180px;
+	height: 43px;
+	float: right;
+	margin-right: 69px;
+}
+
+#final-nav .view2 p{
+	font-size: 13px;
+	color: #bebebe;
+}
+
+#final-nav .view2 h2{
+	font-size: 20px;
+	color: #bebebe;
+}
+#final-nav .view3{
+	width: 183px;
+	height: 14px;
+	margin: 27px 455px 0 455px;
+}
+
+#final-nav .view3 p{
+	font-size: 12px;
+	color: #7c7c7c;
+}
