@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#title {
+  font-size: 4rem;
+  margin:  2%;
+  color: #FEF2BF;
+}
+
+.wf-nicomoji { 
+  font-family: "Nico Moji"; 
+}
+
+.container {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.5;
+}
+
+.red {
+  background-color: rgb(226, 124, 124);
+}
+
+.green {
+  background-color: rgb(168, 219, 168);
+}
+
+.blue {
+  background-color: lightskyblue;
+}
+
+.yellow {
+  background-color: rgb(236, 226, 135);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+p{
+  font-size: 3rem;
+  color: #FEF2BF;
+}
+
+.question a{
+  font-size: 30px;
+  color:  #FEF2BF;
+  text-decoration: none;
+}
+
+.question a:hover{
+  font-size: 30px;
+  color: #FEF2BF;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
