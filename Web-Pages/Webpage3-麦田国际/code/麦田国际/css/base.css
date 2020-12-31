@@ -1,0 +1,170 @@
+/*公共样式 */
+html,body,ul,li,ol,dl,dd,dt,p,
+h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{
+	margin:0;
+	padding:0
+}
+
+#navigation{
+	width: 100%;
+	height: 104px;
+	background-color: #fefefe;
+}
+
+#navigation .navigation-main{
+	width:1140px ;
+	height: 104px;
+	margin: 0 auto;
+	background-color: #fefefe;
+}
+#navigation .navigation-main .logo{
+	width: 400px;
+	height: 104px;
+	background-color: #fefefe;
+	float: left;
+}
+#navigation .navigation-main .logo img{
+	margin-top: 24px;
+	float: left;
+}
+
+#navigation .navigation-main .logo .logosmall img{
+	padding-left: 38px;
+	margin-top: 30px ;
+	
+}
+
+#navigation .navigation-main .logo p{
+	margin-top: 24px;
+	float: right;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 26px;
+	color: gray;
+}
+
+#navigation .navigation-main .menu{
+	height: 73px;
+	float: right;
+	margin: 31px 0 0 0;
+	background-color: #fefefe;
+}
+
+#navigation .navigation-main .menu ul li{
+	list-style: none;
+	float: left;
+	display: block;
+	background-color: #fefefe;
+}
+
+#navigation .navigation-main .menu ul li a{
+	width: 89px;
+	height: 73px;
+	line-height: 73px;
+	text-decoration: none;
+	font-size: 12px;
+	text-align: center;
+	color: #020001;
+	display: block;
+}
+
+#navigation .navigation-main .menu .active a{	/*注意active在HTML文档里也要定义相应的元素*/
+	color: #fcffe4;
+	background: url(../img/navigation/menu-background.png) no-repeat;
+	background-size: 89px 73px;
+}
+
+#navigation .navigation-main .menu ul li a:hover{
+	display: block;
+	color: #fcffe4;
+	background: url(../img/navigation/menu-background.png) no-repeat;
+	background-size: 89px 73px;
+}
+
+#footer .footer-mian{
+	width: 100%;
+	height: 138px;
+	background-color: #363636;
+}
+
+#footer .footer-mian p{
+	padding-top: 30px;
+	text-align: center;
+	line-height: 29px;
+	font-size: 11px;
+	color: #767676;
+}
+
+#footer .footer-mian p a{
+	text-decoration: none;
+	color: #767676;
+}
+#position1{
+	width: 100%;
+	height: 262px;
+	background: url(../img/cases/background.png) repeat;
+}
+#position1 .position1small{
+	width: 1140px;
+	height: 202px;
+	margin: 0 auto;
+}
+
+#position1 .position1small h3{
+	font-size: 23px;
+	padding-top: 68px;
+	line-height: 48px;
+	color: #ffffff;
+}
+#position1 .position1small span{
+	font-size: 19px;
+	color: #feb4b1;
+}
+
+#position1 .position1small p{
+	font-size: 12px;
+	color: #feb4b1;
+}
+
+#position1 .position1small p a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+#position2{
+	width: 100%;
+	height: 60px;
+	background-color: #f7f7f7;
+}
+
+#position2 .position2small {
+	width: 1140px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+#position2 .position2small ul{
+	float: right;
+}
+
+#position2 .position2small ul li {
+	list-style: none;
+	float: left;
+}
+
+#position2 .position2small ul li a{
+	padding-left: 34px;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 11px;
+	color: #666666;
+}
+
+#position2 .position2small ul li a:hover{
+	color: #feb4b1;
+}
+#position2 .position2small ul li a span{
+	padding-right: 14px;
+}
+
